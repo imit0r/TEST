@@ -239,7 +239,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bootstrap (~> 5.2.3)
+  bootstrap
   bootstrap-sass (~> 3.4.1)
   capybara
   debug
