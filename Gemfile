@@ -34,9 +34,11 @@ gem "jbuilder"
 
 gem 'bootstrap-sass','~>3.4.1'
 
-gem 'sass-rails','6.0.0'
+gem 'sass-rails'
 
 gem 'jquery-rails'
+
+gem 'bootsnap'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -51,7 +53,7 @@ gem 'jquery-rails'
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
+#gem "bootsnap", require: true
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
