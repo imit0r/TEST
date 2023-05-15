@@ -1,9 +1,56 @@
-@import 'bootstrap/dist/css/bootstrap';
+/*@import 'bootstrap/dist/css/bootstrap';*/
 
 .navbar {
-  background-color: #d82c2c !important;
+  background-color: black !important;
 }
 
 .nav-link{
   color: white !important;
+}
+
+#logo{
+  float: left;
+  font-size: 1.7;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+
+// .bg-image {
+  // background-image: url("C:\Users\LEGION\Desktop\TEST\app\assets\images\sindy-sussengut-CN-GdKQdxu8-unsplash.jpg");
+// }
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff, #33AEFF);
+}
+
+body {
+  background: url('https://plus.unsplash.com/premium_photo-1675355675464-2deabb1f893b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
